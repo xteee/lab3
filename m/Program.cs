@@ -17,6 +17,14 @@ namespace _1
         {
             return a - b;
         }
+        public static int umnoj(int a, int b)
+        {
+            return a * b;
+        }
+        public static int dilit(int a, int b)
+        {
+            return a / b;
+        }
 
         static void Main(string[] args)
         {
@@ -46,11 +54,11 @@ namespace _1
 
                 case 3:
                     // *
-
+                    umnoj(a, b);
                     break;
 
                 case 4:
-
+                    dilit(a, b);
 
                     break;
 
