@@ -33,7 +33,7 @@ namespace _1
             {
                 case 1:
                     //+
-                    
+                    add(a, b);
                     break;
 
                 case 2:
