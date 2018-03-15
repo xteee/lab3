@@ -32,7 +32,6 @@ namespace _1
             switch (c)
             {
                 case 1:
-                    //+
                     add(a, b);
                     break;
 
