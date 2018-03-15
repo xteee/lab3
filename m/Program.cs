@@ -13,6 +13,10 @@ namespace _1
             return a + b;
         }
 
+        public static int minus(int a, int b)
+        {
+            return a - b;
+        }
 
         static void Main(string[] args)
         {
@@ -32,13 +36,11 @@ namespace _1
             switch (c)
             {
                 case 1:
-                    //+
-                    
+                    add(a, b);
                     break;
 
                 case 2:
-                    //-
-
+                    minus(a, b);
                     break;
 
                 case 3:
